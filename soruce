@@ -23,7 +23,7 @@ local whitelisted = {
 }
 
 local showbotchat = _G.showBotChat or false --setting this to true will cause all messages sent by either commands or LunarBot to begin with [LunarBot]
-local allwhitelisted = _G.defaultAllWhitelisted or true --set to true if you want everyone to be whitelisted, nicK is not responsible for anything players make you do or say.
+local allwhitelisted = _G.defaultAllWhitelisted or false --set to true if you want everyone to be whitelisted, nicK is not responsible for anything players make you do or say.
 local randommoveinteger = _G.defaultRandomMoveInteger or 15 --interval in which how long randommove waits until choosing another direction
 local prefix = _G.defaultPrefix or "." --DO NOT SET TO MORE THAN 1 CHARACTER!
 
